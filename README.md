@@ -3,13 +3,13 @@ To get the code..
 
 1. Cloning the repository:
   ```bash
-  https://github.com/Ngigi-Paul/gas.git
+  https://github.com/Titus-muchoki/Wades.git
   ```
  or open the url below and clone the site
   ```
-  https://github.com/Ngigi-Paul/gas.git
+  https://github.com/Titus-muchoki/Wades.git
   ```
-2. Open to kicks folder and install requirements
+2. Open to wades folder and install requirements
   ```bash  
   python3 -m venv virtual
   source virtual/bin/activate or .\virtual\Scripts\Activate.ps1
@@ -36,7 +36,7 @@ Open the application on your browser `127.0.0.1:8000`.
 
 ## Contact Information 
 
-If you have any question or contributions, please email me at paulkush7777@gmail.com
+If you have any question or contributions, please email me at titoyut56@gmail.com
 
 ## License
 * *MIT License*
