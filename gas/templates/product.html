@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<main class="mt-5 pt-4">
+  <div class="container dark-grey-text mt-5">
+
+    <!--Grid row-->
+    <div class="row wow fadeIn">
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <img src="{{ product.image.url }}" class="img-fluid" alt="">
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <!--Content-->
+        <div class="p-4">
+
+          <div class="mb-3">
+            <a href="">
+              <span class="badge purple mr-1">{{ product.get_category_display }}</span>
+            </a>
+          </div>
+
+          <p class="lead font-weight-bold">Amount</p>
+          <p class="lead">
+            <span>Ksh {{ product.price }}</span>
+          </p>          
+
+          {% if available == True %}
+          <p class="lead font-weight-bold">Availability</p>
+          <p>Available</p>
+          {% else %}
+          <p>Not Available</p>
+          {% endif %}
+
+          <a href="/addToCart/{{product.id}}" class="btn btn-primary btn-md my-0 p">
+            Add to cart
+            <i class="fas fa-shopping-cart ml-1"></i>
+          </a>
+         
+
+        </div>
+        <!--Content-->
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+    <hr>
+
+  </div>
+</main>
+
+{% endblock content %}
