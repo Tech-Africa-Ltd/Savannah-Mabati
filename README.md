@@ -11,16 +11,16 @@ To get the code..
   ```
 2. Open to wades folder and install requirements
   ```bash  
-  python3 -m venv virtual
+  python -m venv virtual
   source virtual/bin/activate or .\virtual\Scripts\Activate.ps1
   pip install -r requirements.txt
   ```
 
 3. Running the application
   ```bash
-  python3 manage.py makemigrations gas
-  python3 manage.py migrate
-  python3 manage.py runserver
+  python manage.py makemigrations gas
+  python manage.py migrate
+  pythong manage.py runserver
   ```
 Open the application on your browser `127.0.0.1:8000`.
 
