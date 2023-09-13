@@ -7,7 +7,7 @@ To get the code..
   ```
  or open the url below and clone the site
   ```
-  https://github.com/Titus-muchoki/Wades.git
+  https://github.com/Tech-Africa-Ltd/Savannah-Mabati/tree/main
   ```
 2. Open to wades folder and install requirements
   ```bash  
