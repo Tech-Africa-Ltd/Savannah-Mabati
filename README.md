@@ -3,13 +3,13 @@ To get the code..
 
 1. Cloning the repository:
   ```bash
-  https://github.com/Titus-muchoki/Wades.git
+  https://github.com/Tech-Africa-Ltd/Savannah-Mabati/tree/main
   ```
  or open the url below and clone the site
   ```
   https://github.com/Tech-Africa-Ltd/Savannah-Mabati/tree/main
   ```
-2. Open to wades folder and install requirements
+2. Open to Savannah folder and install requirements
   ```bash  
   python3 -m venv virtual
   source virtual/bin/activate or .\virtual\Scripts\Activate.ps1
